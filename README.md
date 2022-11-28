@@ -9,7 +9,14 @@ ELS Error-Logs-System
 この説明ではPythonの3.11.0を使用しています。
 
 ## 1.導入
-els.pyは基本的にはmain.pyなどのメイン側プログラムと同じディレクトリに配置するのがおすすめです
+els.pyは基本的にはmain.pyなどのディレクトリにelsフォルダしそこに配置するのがおすすめです
+program
+   |-main.py
+   |-dir1
+   |-dir2
+   |-els
+      |-els.py
+このような感じです
 
 呼び出しをするときはimport elsなどで呼び出して下さい
 
