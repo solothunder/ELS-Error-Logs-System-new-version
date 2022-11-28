@@ -1,4 +1,4 @@
-import els
+form els import els
 els.check_platform("True")
 path = ['./a.txt', './b.txt', './c.txt']
 for pathcount in path:
