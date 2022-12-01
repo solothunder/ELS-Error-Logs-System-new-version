@@ -10,12 +10,14 @@ ELS Error-Logs-System
 
 ## 1.導入
 els.pyは基本的にはmain.pyなどのディレクトリにelsフォルダしそこに配置するのがおすすめです
+```bash
 program
    |-main.py
    |-dir1
    |-dir2
    |-els
       |-els.py
+```
 このような感じです
 
 呼び出しをするときはimport elsなどで呼び出して下さい
